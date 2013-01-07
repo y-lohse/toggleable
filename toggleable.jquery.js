@@ -9,12 +9,14 @@
 			toggleContent.hide();
 			toggleSwitch.click(function(){
 				toggleContent.toggle();
+				$this.toggleClass('closed');
 			});
 		});
 		
 		return this;
 	}
 	
+	//auto init plugin
 	$(function(){
 		$('.ui-toggleable').toggleable();
 	});
