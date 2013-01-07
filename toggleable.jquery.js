@@ -1,5 +1,5 @@
-(function(jQuery){
-	jQuery.fn.toggleable = function(){
+(function($){
+	$.fn.toggleable = function(){
 		this.each(function(){
 			var $this = $(this);
 			var toggleSwitch = $this.find('.ui-toggle-switch');
