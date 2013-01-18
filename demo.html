@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>tabmenu demo</title>
+	
+	<meta name="viewport" content="width=device-width">
+	
+	<style>
+	</style>
+</head>
+<body>
+	<ul>
+	    <li class="ux-toggleable">
+	        <div class="ux-toggle-switch">
+	            Parent #1
+	        </div>
+	        <ul class="ux-toggle">
+	            <li>
+	                <a href="#">
+	                    Link 1
+	                </a>
+	            </li>
+	            <li>
+	                <a href="#">
+	                    Link 2
+	                </a>
+	            </li>
+	            <li>
+	                <a href="#">
+	                    Link 3
+	                </a>
+	            </li>
+	        </ul>
+	    </li>
+	    <li class="ux-toggleable">
+	        <div class="ux-toggle-switch">
+	            Parent #2
+	        </div>
+	        <ul class="ux-toggle">
+	            <li>
+	                <a href="#">
+	                    Link 1
+	                </a>
+	            </li>
+	            <li>
+	                <a href="#">
+	                    Link 2
+	                </a>
+	            </li>
+	            <li>
+	                <a href="#">
+	                    Link 3
+	                </a>
+	            </li>
+	        </ul>
+	    </li>
+	</ul>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="toggleable.jquery.js"></script>
+	<script>
+	$(function(){
+		$('.ux-toggleable').toggleable();
+	});
+	</script>
+</body>
+</html>

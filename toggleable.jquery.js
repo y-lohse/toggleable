@@ -2,8 +2,8 @@
 	$.fn.toggleable = function(){
 		this.each(function(){
 			var $this = $(this);
-			var toggleSwitch = $this.find('.ui-toggle-switch');
-			var toggleContent = $this.find('.ui-toggle');
+			var toggleSwitch = $this.find('.ux-toggle-switch');
+			var toggleContent = $this.find('.ux-toggle');
 			
 			$this.addClass('closed');
 			toggleContent.hide();
@@ -15,9 +15,4 @@
 		
 		return this;
 	}
-	
-	//auto init plugin
-	$(function(){
-		$('.ui-toggleable').toggleable();
-	});
 })(jQuery);
